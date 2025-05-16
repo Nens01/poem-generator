@@ -1,0 +1,49 @@
+body {
+  background-color: #deb6aa;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container {
+  margin: 120 px auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: rgb(173, 58, 89);
+  text-align: center;
+}
+form {
+  padding: 20px;
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(52, 0, 21, 0.15);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.prompt {
+  padding: 10px;
+  border: 1px solid #060606;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+}
+.submit-button {
+  padding: 10px;
+  border: 1px solid #060606;
+  font-size: 16px;
+  border-radius: 50px;
+}
+p {
+  font-size: 16px;
+  line-height: 2;
+  color: rgb(173, 58, 89);
+  background-color: rgba(52, 0, 21, 0.15);
+  border-left: 3px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+}
