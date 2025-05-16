@@ -1,12 +1,12 @@
 body {
   background-color: #deb6aa;
-  font-family: Comic Sans MS, cursive, sans-serif;
+  font-family: Arial, sans-serif;
   color: #333;
   font-size: 16px;
   line-height: 1.5;
 }
 .container {
-  margin: 120 px auto;
+  margin: 120px auto;
   max-width: 600px;
   text-align: center;
   padding: 20px;
@@ -16,7 +16,6 @@ h1 {
   font-size: 36px;
   line-height: 1.5;
   color: rgb(173, 58, 89);
-  text-align: center;
 }
 form {
   padding: 20px;
