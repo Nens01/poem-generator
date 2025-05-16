@@ -13,12 +13,15 @@ function generatePoem(event) {
   let apiKey = "96t02003264bec3oa3b933aaca0f777f";
   let prompt = `User instructions: generate a poem in Nigerian igbo language about ${instructionsInput.value}`;
   let context =
-    "You are a romantic igbo man, and love to write poems in igbo language, your mission is to write a 4 line poem in basic HTML, be sure to follow the user instructions given";
+    "You are a romantic poet, and love to write poems in igbo language, your mission is to write a 4 line poem in basic HTML, be sure to follow the user instructions given";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   console.log("Generating poem...");
   console.log(`prompt: ${prompt}`);
   console.log(`context: ${context}`);
+
+  poemElement.classList.remove("hidden");
+  poemElement.innerHTML = `<div class="generating">⏳ Generating a French poem about ${instructionsInput.value}</div>`;
 
   axios.get(apiUrl).then(displayPoem);
 }
