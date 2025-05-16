@@ -1,7 +1,7 @@
 function displayPoem(response) {
   const poem = response.data.poem;
   new Typewriter("#poem", {
-    strings: [poem],
+    strings: "Nwanyi bu ife,a na-azọ ya ka ego.",
     autoStart: true,
     delay: 400,
     cursor: "",
