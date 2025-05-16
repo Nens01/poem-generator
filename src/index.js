@@ -1,9 +1,8 @@
 function displayPoem(response) {
-  const poem = response.data.poem;
   new Typewriter("#poem", {
-    strings: "Nwanyi bu ife,a na-azọ ya ka ego.",
+    strings: response.data.answer,
     autoStart: true,
-    delay: 400,
+    delay: 1,
     cursor: "",
   });
 }
