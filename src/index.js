@@ -1,6 +1,7 @@
-function displayPoem(event) {
+function displayPoem(response) {
+  const poem = response.data.poem;
   new Typewriter("#poem", {
-    strings: [event.data.poem],
+    strings: [poem],
     autoStart: true,
     delay: 400,
     cursor: "",
