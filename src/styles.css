@@ -20,7 +20,7 @@ h1 {
 form {
   padding: 20px;
   display: flex;
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: rgba(52, 0, 21, 0.15);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
