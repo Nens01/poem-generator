@@ -9,8 +9,7 @@ function displayPoem(event) {
 function generatePoem(event) {
   event.preventDefault();
   let apiKey = "96t02003264bec3oa3b933aaca0f777f";
-  let prompt =
-    "User instructions: write a poem in igbo language about ${context}";
+  let prompt = `User instructions: write a poem in igbo language about ${context}`;
   let context =
     "You are an igbo man, and love to write poems in igbo language, continue this poem to pull the heartstrings of your lover";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key={apiKey}`;
