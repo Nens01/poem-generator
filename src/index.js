@@ -15,7 +15,9 @@ function generatePoem(event) {
   let context =
     "You are a romantic poet, and love to write poems in igbo language, your mission is to write a 4 line poem, no title, separate each line with a <br />. be sure to follow the user instructions given";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
-
+  let poemElement = document.querySelector("#poem");
+  poemElement.classList.remove("hidden");
+  poemElement.innerHTML = `<div class="generating">Generating poem for you about ${instructionsInput.value}...</div>`;
   console.log("Generating poem...");
   console.log(`prompt: ${prompt}`);
   console.log(`context: ${context}`);
