@@ -8,8 +8,6 @@ body {
 .container {
   margin: 120px auto;
   max-width: 600px;
-  text-align: center;
-  padding: 20px;
 }
 h1 {
   font-weight: 800;
